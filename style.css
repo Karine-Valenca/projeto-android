@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: iDroid;
+    src: url(fontes/idroid.otf);
+}
+:root {
+    --fonte-bebas: "Bebas Neue", sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    height: 100%;
+    margin: auto;
+    padding: 1px;
+    background-color: #89cda5;   
+}
+header {
+    text-align: center ;
+    background-image: linear-gradient(#54B174, #1A5A37,#1A5A37);
+    padding: 35px;
+    height: 130px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);    
+}
+header > h1 {
+    font-family: var(--fonte-bebas);
+    font-weight: normal;
+    color: white;
+    font-size: 2em;
+    padding: 0px;
+    text-align: center;   
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    color: white;     
+}
+nav {   
+    margin: 20px 35px 35px -25px;
+    text-align: left;
+    word-spacing: 20px; 
+    padding-bottom: 20px;
+    font-weight: bold;    
+}
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bolder;
+    text-decoration: none;
+    height: 13.3px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: -10px;
+}
+.anav1:hover {
+    background-color:#54B174 ;
+} 
+.anav2:hover {
+    background-color: #54B174;
+}
+.anav3:hover {
+    background-color: #54B174;
+}
+h1 {
+    color: #1A5A37;
+    text-shadow: 2px 2px 2px gray;
+    height: 35px;
+    font-family: iDroid;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.Ump {
+    height: 36px;
+}
+h2 {
+    padding: 3px;
+    text-indent: 10px;
+    border-radius: 10px 0px 0px 10px;
+    text-shadow: 2px 2px 2px gray;
+    color: #1A5A37;
+    font-family: iDroid;
+    text-align: left;
+    background-image: linear-gradient( to right, #B1DEC3, #D0EBDB, #FFFFFF);   
+}
+main {
+    max-width: 1000px;
+    min-width: 300px;   
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    background-color: white;
+    margin: auto;
+}
+nav {
+    text-align: left;    
+}
+.Primeiro {
+    font-size:16px ;
+    line-height: 30px;
+    text-indent: 30px;
+    text-align:justify;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.green1 {
+    text-shadow: 2px 2px 2px gray;
+    color: #1A5A37;
+}
+h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2FA866;
+    text-align: left;
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+    margin: 0px;
+    padding:10px 5px 10px 10px;
+}
+.sectionhtres {
+    padding: 0px 10px 0px 10px;   
+}
+div {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.400);
+    border-radius: 0px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 10px 50px 10px;
+    background-color: #C5EBD6;
+}
+.listas {
+    /*width: 505px;*/
+}
+.primeiraol{    
+    text-align: left;
+    display: inline-block;  
+    font-family: Arial, Helvetica, sans-serif;     
+}
+.segundaol {
+    text-align: left;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    position:relative;
+    color: white;
+    max-width: 100%;
+    width: 100vw;
+    text-align: center;
+    background-color: #215B38;
+    bottom: 0px;  
+}
+ .link {
+    color: white;
+    text-decoration: none;   
+ }
+ .link:hover {
+    background-color: white;
+    color: black;
+ }
+.video {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 370px;
+    padding: 10px;
+}
+.img {
+    width: 100%;
+}
+.greenname {
+    color: #1A5A37;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.greenname:hover {
+    background-color: #1A5A37;
+    color: white;
+    text-decoration: none;
+}
